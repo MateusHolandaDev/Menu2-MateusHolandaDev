@@ -1,0 +1,56 @@
+* {
+    
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    
+background-color: black;
+
+}
+
+#menu ul {
+     
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(75, 170, 233), rgb(2, 45, 100));
+    
+
+}
+
+#menu ul h3 li{
+
+    display: inline;
+    padding: 10px;
+
+}
+
+#menu ul h3 li a {
+
+    text-decoration: none;
+    padding: 20px;
+    color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    transition:background  0.7s;
+
+}
+
+#menu ul h3 li:last-child a {
+
+    float: right;
+
+}
+
+#menu ul h3 li a:hover {
+
+    background-color: black;
+
+
+}
+
+
+
